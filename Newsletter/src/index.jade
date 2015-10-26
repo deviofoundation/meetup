@@ -1,0 +1,110 @@
+doctype html
+html
+	head
+		meta(name='viewport', content='width=device-width')
+		meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+		link(rel='stylesheet', href='css/style.css')
+		title PostBox Email Template
+	body
+
+	//- BODY
+	table.body-wrap
+		td
+		td.container: .content
+				//- BANNER 
+				table( border="0" cellpadding="0" cellspacing="0")
+					tr
+						td
+							.banner
+								img(src="img/logo.png")
+					tr
+						td.date
+							table
+								tr 
+								h4 DEV I/O FOR
+								span Dezembro 2015
+						tr
+							td.hero 
+								| Lorem ipsum dolor sit amet, quem doctus tamquam vix cu. Sit at magna ludus delenit, quo ut congue minimum atomorum. Nonumy comprehensam sea ea, ne sumo utroque tincidunt sea. An vidit deserunt mediocritatem eam ...
+								br
+								br
+								a.btn-block(href="#" ) CALL TO ACTION
+						
+						//- CONTENT
+						table.narrow
+									tr
+										td.feature-large
+											h3 FEATURED SECTION WITH LARGE IMAGE
+											.feature-img
+											p Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae.
+											a.btn-primary(href="#" ) Leia Mais
+								table.narrow
+												tr
+													td.feature 
+														h4 FEATURED SECTION
+														p Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae.
+														br
+														a.btn-primary(href="#") Leia Mais
+														
+								table.narrow
+												tr
+													td.feature 
+														h4 FEATURED SECTION
+														p Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae.
+														br
+														a.btn-primary(href="#") Leia Mais
+										
+								table.narrow
+											tr
+												td.feature
+													h4 SIMPLE SECTION
+												td
+												td.feature 
+													h4 SIMPLE SECTION
+											tr
+											tr
+												td.feature
+													p Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae.
+													br
+													a.btn-primary Leia Mais															
+												td
+												td.feature
+													p Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae. Phasellus dictum sapien a neque luctus cursus. Pellentesque sem dolor, fringilla et pharetra vitae.
+													br
+													a.btn-primary Leia Mais						
+			
+								//- SOCIAL
+						table.social
+												tr
+													td
+														//- Collum 2
+														table.column(align='left')
+															td
+																h5 Contate-nos
+																p
+																	a.soc-btn.fb Facebook
+																	a.soc-btn.tw Twitter
+																	a.soc-btn.gp Google
+														//- Collumn 2
+														table.column(align='left')
+															tr
+																td
+																	h5 Contact info:
+																	p Phone:
+																		strong +55 85 99999-9999
+																	p Email:
+																		strong:a(href='emailto:jhon@doe.com') jhon@doe.com
+	//-  FOOTER
+	table.footer-wrap
+		tr
+			td
+			td.container
+				.content
+					table
+						tr
+							td(align='center')
+								p
+									a(href='#') Term |
+									a(href='#')  Privacy |
+									a(href='#')
+										unsubscribe Unsubscribe

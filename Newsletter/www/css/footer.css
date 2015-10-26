@@ -1,0 +1,17 @@
+/* -------------------------------------
+		FOOTER
+------------------------------------- */
+table.footer-wrap {
+  width: 100%;
+  clear: both !important; }
+
+.footer-wrap .container td.content p {
+  border-top: 1px solid #d7d7d7;
+  padding-top: 15px; }
+
+.footer-wrap .container td.content p {
+  font-size: 10px;
+  font-weight: bold; }
+
+.collapse {
+  margin: 0 !important; }

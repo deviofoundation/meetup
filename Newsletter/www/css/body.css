@@ -1,0 +1,8 @@
+/* -------------------------------------
+		BODY
+------------------------------------- */
+table.body-wrap {
+  width: 100%;
+  margin-top: 10px; }
+  table.body-wrap .content {
+    color: #59504f; }

@@ -1,0 +1,45 @@
+/* ---------------------------------------------------
+		RESPONSIVENESS
+------------------------------------------------------ */
+.container {
+  display: block !important;
+  max-width: 600px !important;
+  margin: 0 auto !important;
+  clear: both !important;
+  background-color: #fff; }
+
+.header {
+  border: none;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+
+.content {
+  margin: 0 auto;
+  display: block; }
+
+.narrow {
+  padding: 20px; }
+
+.content table {
+  width: 100%; }
+
+.column {
+  width: 300px;
+  float: left; }
+
+.column tr td {
+  padding: 15px; }
+
+.column-wrap {
+  padding: 0 !important;
+  margin: 0 auto;
+  max-width: 600px !important; }
+
+.column table {
+  width: 100%; }
+
+.social .column {
+  width: 266px !important;
+  min-width: 265px;
+  float: left; }
