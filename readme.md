@@ -1,4 +1,4 @@
-[![cover](https://bitbucket.org/repo/Aexq5y/images/3619728953-cover.png)](http://github.com/deviofor/event-boilerplate)
+![cover.png](https://bitbucket.org/repo/Aexq5y/images/3619728953-cover.png)
 
 > A starting point for the creation of awesome events.
 
